@@ -3,7 +3,7 @@
 
 [![Release](https://img.shields.io/badge/jCenter-1.3.1-brightgreen.svg)](https://bintray.com/hvdung-90/maven/Calculator-time)
 
-Rx based generic RecyclerView Adapter Library.
+Calculates the time from the selected date to the current date with timestamp.
 
 ## How to use it?
 #### Example!
