@@ -59,16 +59,4 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
 
-Properties properties = new Properties()
-properties.load(rootProject.file('local.properties').newDataInputStream())
-
-
-apply from: 'https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle'
-
-bintray {
-    user = properties.getProperty('user')
-    key = properties.getProperty('key')
-    configurations = ['archives']
-}
 
